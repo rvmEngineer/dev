@@ -1,0 +1,11 @@
+<!-- Twig syntax-->
+{% if error_array|length >0 %}
+<div class="alert alert-danger" role="alert">  
+    <ul>
+        {% for error in error_array  %}
+        <li> {{error}}</li>
+        {% endfor %}
+    </ul>
+</div>
+<!--  <p> There are errors</p>    -->
+{% endif %} 

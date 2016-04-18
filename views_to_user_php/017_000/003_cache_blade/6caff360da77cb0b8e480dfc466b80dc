@@ -1,0 +1,11 @@
+ hello world . <?php echo e($test); ?> 
+<br>   
+
+<?php echo $_SESSION['test_session']; ?>
+
+
+
+<?php /* Commenting in blade*/ ?>
+
+
+

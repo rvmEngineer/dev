@@ -1,0 +1,88 @@
+<!--  It says document type for browser as html 5 file -->
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="CSS/Bootstrap/css/bootstrap.min.css">
+  <title>Register </title>
+</head>
+
+<body>
+
+<script type="text/javascript" src= "CSS/Bootstrap/js/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src= "CSS/Bootstrap/js/bootstrap.min.js"></script>
+<div class="container">
+    
+  
+  <div class="row">
+    <div class="col-md-2  ">
+        First heading
+    </div>
+
+    <div class="col-md-8">
+        <h1>Log in  </h1>
+        <hr>
+            
+        <form  id ="reg_form" name="registration_form"  class="form-horizontal"  action="register_Check.php" method="post" >
+              <div class="form-group">
+                  <label for="first_name" class="col-sm-2 control-label">First Name</label>
+
+                  <div class="col-sm-10">
+                    <input type="text" class="form-control" id="first_name" placeholder="first name">
+                  </div>
+              </div>
+              <div class="form-group">
+                  <label for="last_name" class="col-sm-2 control-label">Last Name</label>
+                  <div class="col-sm-10">
+                    <input type="text" class="form-control" id="last_name" placeholder="last name">
+                  </div>
+              </div>
+              <div class="form-group">
+                    <label for="email_name" class="col-sm-2 control-label">Email</label>
+                    <div class="col-sm-10">
+                      <input type="email" class="form-control" id="email_name" placeholder="user@example.com">
+                    </div>
+              </div>
+              <div class="form-group">
+                    <label for="verify_email_name" class="col-sm-2 control-label">verify Email</label>
+                    <div class="col-sm-10">
+                      <input type="email" class="form-control" id="verify_email_name" placeholder="user@example.com">
+                    </div>
+              </div>
+              <div class="form-group">
+                  <label for="password" class="col-sm-2 control-label">Password</label>
+                    <div class="col-sm-10">
+                      <input type="password" class="form-control" id="password" placeholder="Password">
+                    </div>
+              </div>
+              <div class="form-group">
+              <label for="verify_password" class="col-sm-2 control-label">verify Password</label>
+                <div class="col-sm-10">
+                  <input type="password" class="form-control" id="verify_password" placeholder="Password">
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+                  <button type="submit" class="btn btn-primary">Register</button>
+                </div>
+              </div>
+        </form>
+        
+    </div>
+      
+    <div class="col-md-2">
+      Third Heading
+    </div>
+
+   </div>
+
+</div>
+    
+    
+</body>
+
+</html>

@@ -1,0 +1,25 @@
+{
+    "name": "rvm/abin",
+    "authors": [
+        {
+            "name": "rocker rvm",
+            "email": "a@gmail.com"
+        }
+    ],
+    "require":
+    {
+        "filp/whoops": "^2.1",
+        "altorouter/altorouter": "1.1.0",
+        "illuminate/database": "5.1.*",
+        "vlucas/phpdotenv":"~1.1",
+        "respect/validation": "^1.0",
+        "twig/twig": "~1.0",
+        "duncan3dc/blade":"2.2.*"
+    },
+   
+    "autoload":
+    {
+        "psr-4": {"Name_Space\\" : "views_to_user_php/016_000/002_class_definitions/"}
+    } 
+
+}

@@ -1,0 +1,22 @@
+{
+    "name": "rvm/abin",
+    "authors": [
+        {
+            "name": "rocker rvm",
+            "email": "a@gmail.com"
+        }
+    ],
+    "require":
+    {
+        "filp/whoops": "^2.1",
+        "altorouter/altorouter": "1.1.0",
+        "illuminate/database": "5.1.*",
+        "vlucas/phpdotenv":"~1.1",
+        "respect/validation": "^1.0"
+    },
+    "autoload":
+    {
+        "classmap":   
+        ["views_to_user_php/010_001/000_Settings/002_Page_Controllers/","views_to_user_php/010_001/000_Settings/003_database_env_settings/database_models/"]
+    }
+}

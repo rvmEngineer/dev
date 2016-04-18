@@ -1,0 +1,12 @@
+ body{
+   background-color: silver;
+ }
+.container-div
+{
+  width: 500px;
+  background-color :white;
+  text-align: center;
+  margin:0 auto;
+  padding: 10px;
+  border: 2px solid black;
+}

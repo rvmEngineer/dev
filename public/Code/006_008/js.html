@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Javascript</title>
+  </head>
+  <body>
+    <button type="button" onclick="ClickMe('hello world again')">Click Me</button>
+    <br><br>
+    <button type="button" onclick="ClickMetoo('<strong>parameter Message</strong>')">Clcik here for printing inside html body</button>
+
+    <div id="textchange">
+    </div>
+     <div class="container">
+       <a class = "btn btn-primary" onclick="Myfunction()" href="#">Sub rountine function Demo</a>
+     </div>
+    <script type="text/javascript">
+
+      function Myfunction()
+      {
+         var MyText;
+         MyText = sub_Myfunction();
+         alert(sub_Myfunction);
+      }
+
+      function sub_Myfunction(x)
+      {
+         return "Hello World function return";
+      }
+
+      function ClickMe(x)
+      {
+        alert("hello world java Script"+"---"+x);
+      }
+      function ClickMetoo(x)
+      {
+        document.getElementById('textchange').innerHTML="I was Clicked"+"---"+x;
+
+      }
+
+    </script>
+  </body>
+</html>
